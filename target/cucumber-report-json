@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8621968742,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Login Page",
+            "match": {
+              "location": "LoginStepsdefs.user_is_on_Login_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1501022085,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters \"eimj05@icloud.com\" and \"jordan23\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "eimj05@icloud.com",
+                  "offset": 13
+                },
+                {
+                  "val": "jordan23",
+                  "offset": 37
+                }
+              ],
+              "location": "LoginStepsdefs.user_enters_and(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2328494,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Message displayed login Successfully",
+            "match": {
+              "location": "LoginStepsdefs.message_displayed_login_Successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Viewing a Curso",
+        "description": "",
+        "id": "cursos;viewing-a-curso",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1107094746,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User is on Cursos Screen",
+            "match": {
+              "location": "CursosStepsdefs.user_is_on_Cursos_Screen()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1074404073,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User click to view a Curso 11",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 27
+                }
+              ],
+              "location": "CursosStepsdefs.user_click_to_view_a_Curso(int)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11970008,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Curso \"Testing Nombre Curso 1\" should exist",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Testing Nombre Curso 1",
+                  "offset": 7
+                }
+              ],
+              "location": "CursosStepsdefs.curso_should_exist(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1379841928,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Logout from the Application",
+            "match": {
+              "location": "LoginStepsdefs.user_Logout_from_the_Application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 343510577,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "Message displayed Logout Succesfully",
+            "match": {
+              "location": "LoginStepsdefs.message_displayed_Logout_Succesfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 24,
+            "name": "@Scenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Cursos",
+    "description": "",
+    "id": "cursos",
+    "keyword": "Feature",
+    "uri": "Feature/Cursos_Test.feature"
+  }
+]
